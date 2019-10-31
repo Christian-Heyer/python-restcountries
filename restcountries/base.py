@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import requests
 import json
-from future.utils import python_2_unicode_compatible
+#from future.utils import python_2_unicode_compatible
 
 
 class RestCountryApi(object):
@@ -138,7 +138,7 @@ class RestCountryApiV2(RestCountryApi):
     QUERY_SEPARATOR = ';'
 
 
-@python_2_unicode_compatible
+# @python_2_unicode_compatible
 class Country(object):
 
     def __str__(self):
